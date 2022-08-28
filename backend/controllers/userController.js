@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 const asyncHandler = require('express-async-handler');
 const User = require('../models/userModel');
 const crypto = require('crypto');
-const sendEmail = require('../middleware/emailMiddleware');
+const sendEmail = require('../middleWare/emailMiddleware');
 
 const generateToken = (id) => {
     return jwt.sign({ id }, process.env.JWT_SECRET, {
