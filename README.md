@@ -10,7 +10,7 @@ To install this project, follow the steps below:
 1. Clone the repository to your local machine using the command below:
 
 ```bash
-git clone https://github.com/{your-username}/israel-fuel-prices-api.git
+git clone https://github.com/omerg864/israel-fuel-api.git
 ```
 
 2. Install the dependencies using the command below:
